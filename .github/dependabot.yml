@@ -1,0 +1,94 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@uifabric/fluent-theme"
+    versions:
+    - 7.4.10
+    - 7.4.11
+    - 7.4.12
+    - 7.4.13
+    - 7.4.14
+    - 7.4.15
+    - 7.4.16
+    - 7.4.17
+    - 7.4.18
+    - 7.4.19
+    - 7.4.20
+    - 7.4.21
+    - 7.4.22
+    - 7.4.23
+    - 7.4.24
+    - 7.4.25
+    - 7.4.26
+    - 7.4.27
+    - 7.4.28
+    - 7.4.29
+    - 7.4.30
+    - 7.4.32
+    - 7.4.33
+    - 7.4.8
+    - 7.4.9
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.22
+    - 14.14.24
+    - 14.14.25
+    - 14.14.26
+    - 14.14.28
+    - 14.14.30
+    - 14.14.31
+    - 14.14.32
+    - 14.14.33
+    - 14.14.34
+    - 14.14.35
+    - 14.14.36
+    - 14.14.37
+    - 14.14.39
+    - 14.14.41
+    - 15.0.0
+  - dependency-name: "@uifabric/theme-samples"
+    versions:
+    - 7.2.10
+    - 7.2.11
+    - 7.2.12
+    - 7.2.13
+    - 7.2.14
+    - 7.2.15
+    - 7.2.16
+    - 7.2.17
+    - 7.2.18
+    - 7.2.19
+    - 7.2.20
+    - 7.2.21
+    - 7.2.22
+    - 7.2.23
+    - 7.2.24
+    - 7.2.25
+    - 7.2.26
+    - 7.2.27
+    - 7.2.28
+    - 7.2.29
+    - 7.2.30
+    - 7.2.32
+    - 7.2.33
+    - 7.2.8
+    - 7.2.9
+  - dependency-name: "@types/react"
+    versions:
+    - 16.14.2
+    - 16.14.3
+    - 16.14.4
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
